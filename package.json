@@ -1,0 +1,28 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "'nmp init ",
+  "main": "index.js",
+  "scripts": {
+     "start":"npm run lite",
+     "lite":"lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericametepe/git-test.git"
+  },
+  "keywords": [
+    "coursera",
+    "npm"
+  ],
+  "author": "eric ametepe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericametepe/git-test/issues"
+  },
+  "homepage": "https://github.com/ericametepe/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
